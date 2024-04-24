@@ -2,33 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css" />
+  <title>Protofolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>University Name</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Admission</a></li>
-            <li><a href="#">Contact</a></li>
+  <!--header-->
+  <header>
+    <div class="nav_bar">
+      <div class="logo">𝐼𝓃𝒶𝓂-𝓊𝓁-𝒽𝒶𝓆</div>
+      <div class="navbar_content">
+        <ul class="nav_list">
+          <li class="nav_element"><a href="#home">Home</a></li>
+          <li class="nav_element"><a href="#about">About</a></li>
+          <li class="nav_element"><a href="#projects">Projects</a></li>
+          <li class="nav_element"><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-    <main>
-        <h2>Welcome to University Name</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac malesuada leo.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 University Name. All Rights Reserved.</p>
-    </footer>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero content -->
+
+  <div class="main" id="home">
+    <div class="hero_content">
+      <div class="hero-left">
+        <h1>Myself:</h1>
+        <p>Inam-Ul-Haq</p>
+      </div>
+
+      <div class="description">
+        <p>
+          I am Web-Developer. I am doing Web development<br />
+          for about 3 Years. I completed several Projects <br />and Working on
+          Several Projects
+        </p>
+      </div>
+      <div class="social-icon">
+        <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://pk.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- About-->
+
+  <div class="about" id="about">
+    <div class="left_side">
+      <div class="expertise">
+        <h1>About me</h1>
+        <p>
+          I’m Inam-ul-Haq, a front-end web developer and Web Page Designer
+          based in Lahore, Pakistan. I've been working for the last 3 years.
+        </p>
+        <p>
+          I have many expertise in various languages like HTML, CSS, Boostrap,
+          Tailwind, Javascript and its Libraries e.g React JS & Node JS
+        </p>
+      </div>
+    </div>
+    <div class="right_side">
+      <div class="progress_bar">
+        <p>HTML</p>
+        <div class="progress">
+        </div>
+      </div>
+      <div class="progress_bar">
+        <p>CSS</p>
+        <div class="progress">
+        </div>
+      </div>
+      <div class="progress_bar">
+        <p>Javascript</p>
+        <div class="progress">
+        </div>
+      </div>
+      <div class="progress_bar">
+        <p>React</p>
+        <div class="progress">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Projects-->
+  <div class="projects" id="projects">
+    <!-- Image grids of projects-->
+    <h1>Projects</h1>
+    <div class="images">
+      <img src="/assets/2.jpg" alt="">
+      <img src="/assets/3.jpg" alt="">
+      <img src="/assets/1.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- Contact Us-->
+  <div class="contact" id="contact">
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <p>All right reserved</p>
+    <div class="social-icon">
+      <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://pk.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+
 </body>
 
 </html>
